@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=872
+
+Abbreviations in language files can sometimes be annoying if they are not intended for inside comments (capitalisation is a good example). Support for <buffer> is included.
+
+This script allows you to create abbreviations that do not happen inside comments.
+Synabbrev[!] [<buffer>] {lhs} {RHS}
+
+eg 
+Synabbrev to To
+
+
+
+
+
